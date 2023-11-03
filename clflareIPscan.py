@@ -24,7 +24,7 @@ def cidrs():
 	return cidrslist
 
 def save(x):
-	with open('wrCloudflrIp.txt','a') as fl:
+	with open('altheeb.txt','a') as fl:
 		fl.write(str(x)+'\n')
 		fl.close()
 		
